@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root{
+    --primary-color:#5fbaa7;
+    --hover: #20715f;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    color: var(--primary-color);
+}
+
+p{
+    text-align: center;
+}
+
+.btn{
+    color: #fff;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    padding: 5px 12px;
+}
+
+.btn:hover {
+    background-color: var(--hover);
+}
+
+.money-img{
+    width: 150px;
+}
+
+.currency{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #dedede;
+}
+
+.currency input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+}
+
+.swap-rate-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 7px 0;
+}
